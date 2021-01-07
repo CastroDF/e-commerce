@@ -1,4 +1,4 @@
-# e-commerce template
+# E-commerce template
 
 ## What is it about?
 
@@ -17,7 +17,7 @@ An app to sell products on online services.
 
 - <a href="https://github.com/CastroDF">Diego Fernando Castro</a>
 - <a href="https://github.com/Bollero420">Juan Ignacio Bollero</a>
-- <a href="https://github.com/">Rodrigo D'Andrea</a>
+- <a href="https://github.com/Rodrigo-DAndrea">Rodrigo D'Andrea</a>
 
 ## Install
 

@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <HeaderLayout>
-            <ul>
-                <li>
+            <ul className="tabsContainer">
+                <li className="tabs">
                     <Link to="/home">
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className="tabs">
                     <Link to="/about">
                         About
                     </Link>
                 </li>
-                <li>
+                <li className="tabs">
                     <Link to="/contact">
                         Contact
                     </Link>

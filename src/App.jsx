@@ -1,17 +1,18 @@
 import React from 'react';
-import './globalStyle.css';
+import './globalStyles/style.css';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Routes from './Routes';
+import AppContainer from './globalStyles/app';
 
 const App = () => {
     return (
-        <div>
+        <AppContainer>
             <Router>
                 <Switch>
                     <Routes />
                 </Switch>
             </Router>
-        </div>
+        </AppContainer>
     );
 };
 
