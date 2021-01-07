@@ -1,5 +1,5 @@
-import React from "react";
-import "./globalStyle.css";
+import React from 'react';
+import './globalStyle.css';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Routes from './Routes';
 
@@ -12,7 +12,7 @@ const App = () => {
                 </Switch>
             </Router>
         </div>
-    )
-}
+    );
+};
 
 export default App;

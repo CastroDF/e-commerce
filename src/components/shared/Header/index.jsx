@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import HeaderLayout from './style';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const Header = () => {
                 </li>
             </ul>
         </HeaderLayout>
-    )
-}
+    );
+};
 
 export default Header;
