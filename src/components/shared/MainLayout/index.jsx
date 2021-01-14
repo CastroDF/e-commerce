@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
-import NavBar from '../NavBar/NavBar';
-import Section from '../Section/Section';
+import NavBar from '../NavBar';
+import Section from '../Section';
 
 
 const MainLayout = ({ children }) => {
