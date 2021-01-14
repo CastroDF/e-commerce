@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { MainLayout } from './components/shared';
-import { Home, About, Contact } from './components/organisms';
+import { Home, About, Contact, Products } from './components/organisms';
 
 const Routes = () => {
     return (
@@ -15,6 +15,11 @@ const Routes = () => {
             <Route path="/about" >
                 <MainLayout>
                     <About />
+                </MainLayout>
+            </Route>
+            <Route path="/products" >
+                <MainLayout>
+                    <Products />
                 </MainLayout>
             </Route>
             <Route path="/contact" >

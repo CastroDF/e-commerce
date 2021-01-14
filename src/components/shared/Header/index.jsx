@@ -21,6 +21,11 @@ const Header = () => {
                         Contact
                     </Link>
                 </li>
+                <li className="tabs">
+                    <Link to="/products">
+                        Products
+                    </Link>
+                </li>
             </ul>
         </HeaderLayout>
     );
